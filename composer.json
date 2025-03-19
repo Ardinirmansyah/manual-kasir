@@ -1,28 +1,26 @@
 {
-  "name": "eonasdan/bootstrap-datetimepicker",
-  "type": "component",
-  "version": "4.17.47",
-  "description": "Date/time picker widget based on twitter bootstrap",
-  "keywords": [
-    "bootstrap",
-    "datetimepicker"
-  ],
-  "homepage": "http://eonasdan.github.io/bootstrap-datetimepicker/",
-  "license": "MIT",
-  "require": {
-    "robloach/component-installer": "*",
-    "components/jquery": ">=1.9.1",
-    "moment/moment": ">=2.10.5"
-  },
-  "extra": {
-    "component": {
-      "scripts": [
-        "src/js/bootstrap-datetimepicker.js"
-      ],
-      "files": [
-        "build/js/bootstrap-datetimepicker.min.js",
-        "build/css/bootstrap-datetimepicker.min.css"
-      ]
+    "name": "nnnick/chartjs",
+    "type": "library",
+    "description": "Simple HTML5 charts using the canvas element.",
+    "keywords": [
+        "chart",
+        "js"
+    ],
+    "homepage": "http://www.chartjs.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NICK DOWNIE",
+            "email": "hello@nickdownie.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "release/2.0": "v2.0-dev"
+        }
     }
-  }
 }
